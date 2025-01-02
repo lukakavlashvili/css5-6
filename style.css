@@ -1,0 +1,557 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.full_header {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    padding: 22px 208px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header_display {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.Branding_header {
+    color: #000;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Products {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.header_button {
+    display: flex;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    width: 73px;
+    color: #414651;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600
+}
+
+.header_buttontwo {
+    display: flex;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    background: #7F56D9;
+    border: none;
+    width: 83px;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.button_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.main_buttonfull {
+    display: flex;
+    padding: 8px 12px 8px 8px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    width: 371px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 112px 0 225px;
+    gap: 96px;
+
+}
+
+.buttonindiv {
+    display: flex;
+    padding: 4px 8px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 6px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+
+.feature {
+    color: #414651;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.Beautiful {
+    color: #181D27;
+
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.first_mainwrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.self-serve {
+    color: #535862;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 660px;
+}
+
+.you_convert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.first_mainlast {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+
+.Demo {
+    color: #414651;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.first_mainlasttwo {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    background: #7F56D9;
+    border: none;
+    width: 114px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.firstlasstdisplay {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.second_main {
+    display: flex;
+    width: 1024px;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Features {
+    color: #6941C6;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.Analytics {
+    color: #181D27;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+}
+
+.self-serve {
+    color: #535862;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 818px;
+}
+
+.Trusted {
+    display: flex;
+    justify-content: center;
+}
+
+.mainfull_card {
+    display: flex;
+    width: 1024px;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.first_fulcard {
+    display: flex;
+    padding: 12px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.card_text {
+    color: #181D27;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.Whether_you {
+    color: #535862;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* .card_vector {
+    display: flex;
+align-items: center;
+gap: 16px;
+} */
+
+.border_radius {
+    border-radius: 10px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.full_card {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.Upgrade {
+    color: #7F56D9;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.Pricing {
+    color: #181D27;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.Upgrade_text {
+    display: flex;
+    justify-content: center;
+}
+
+.transparent {
+    color: #535862;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.full_cardall {
+    display: flex;
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    width: 496px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first_card {
+    display: flex;
+    padding: 32px 32px 0px 32px;
+    flex-direction: column;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.Basic_plan {
+    color: #6941C6;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.card_textblue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.energy_card {
+    width: 48px;
+
+}
+
+.tenmth {
+    color: #181D27;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.Billed {
+    display: flex;
+    justify-content: center;
+    color: #535862;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.gap_ok {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.middle_text {
+    display: flex;
+    padding: 32px 32px 40px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.first_cheack {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.Access {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.full_middlegap {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.full_buttton {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border-top: 1px solid #E9EAEB;
+    background: #FAFAFA;
+}
+
+.button_start {
+    display: flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+    background: #7F56D9;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    width: 432px;
+}
+
+.displaycard {
+    display: flex;
+}
+
+.last_main {
+    display: flex;
+    padding: 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    border-radius: 24px;
+    background: #53389E;
+    width: 544px;
+}
+
+.simplicity {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    width: 384px;
+
+}
+
+.last_maingap {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.satrs {
+    width: 116px;
+}
+
+.Renee_Wells {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+.Pro_duct {
+    color: #E9D7FE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.gapfour {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+
+.girl_picture {
+    border-radius: 24px;
+    background: #53389E;
+}
+
+.test {
+    display: flex;
+}
+
+.full_footer {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    padding: 24px 208px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.footer_auto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: stretch;
+}
+
+.navvvv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
