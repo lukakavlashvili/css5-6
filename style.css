@@ -209,7 +209,9 @@ main {
 
 .second_main {
     display: flex;
-    width: 1024px;
+    max-width: 1024px;
+    width: 100%;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 24px;
 }
@@ -248,7 +250,9 @@ main {
 
 .mainfull_card {
     display: flex;
-    width: 1024px;
+    max-width: 1024px;
+    width: 100%;
+    flex-wrap: wrap;
     gap: 24px;
     align-items: center;
     justify-content: center;
@@ -455,6 +459,7 @@ gap: 16px;
     font-weight: 600;
     line-height: 24px;
     width: 432px;
+    cursor: pointer;
 }
 
 .displaycard {
@@ -469,9 +474,10 @@ gap: 16px;
     align-items: flex-start;
     gap: 32px;
     flex: 1 0 0;
-    border-radius: 24px;
     background: #53389E;
     width: 544px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
 }
 
 .simplicity {
@@ -518,12 +524,14 @@ gap: 16px;
 
 
 .girl_picture {
-    border-radius: 24px;
     background: #53389E;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
 }
 
 .test {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .full_footer {
@@ -541,6 +549,7 @@ gap: 16px;
     justify-content: space-around;
     align-items: center;
     align-self: stretch;
+    flex-wrap: wrap;
 }
 
 .navvvv {
@@ -554,4 +563,3 @@ footer {
     display: flex;
     justify-content: center;
 }
-
