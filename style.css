@@ -11,9 +11,9 @@ header {
 
 .full_header {
     display: flex;
-    max-width: 1440px;
+    max-width: 1024px;
     width: 100%;
-    padding: 22px 208px;
+    padding-top: 22px ;
     align-items: center;
     justify-content: space-between;
     align-items: center;
@@ -148,6 +148,8 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    max-width: 1024px;
+    width: 100%;
 }
 
 .self-serve {
@@ -165,6 +167,8 @@ main {
     align-items: center;
     gap: 40px;
     flex-wrap: wrap;
+    max-width: 1024px;
+    width: 100%;
 }
 
 .first_mainlast {
@@ -537,8 +541,8 @@ gap: 16px;
 .full_footer {
     display: flex;
     width: 100%;
-    max-width: 1440px;
-    padding: 24px 208px;
+    max-width: 1200px;
+    padding-bottom: 24px ;
     flex-direction: column;
     align-items: center;
     gap: 64px;
